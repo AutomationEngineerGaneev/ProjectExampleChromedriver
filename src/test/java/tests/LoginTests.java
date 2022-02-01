@@ -11,7 +11,7 @@ import utils.listeners.TestListener;
 @Feature("Login Tests")
 public class LoginTests extends BaseTest {
 
-    @Test(priority = 0, description = "Выход из системы")
+    @Test(priority = 1, description = "Выход из системы")
     @Severity(SeverityLevel.BLOCKER)
     @Description("Выход из системы")
     @Story("Выход из системы")
