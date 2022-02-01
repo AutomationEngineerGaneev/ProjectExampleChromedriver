@@ -5,7 +5,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import utils.listeners.TestListener;
 
-
 @Listeners({TestListener.class})
 @Epic("Regression Tests")
 @Feature("Login Tests")
